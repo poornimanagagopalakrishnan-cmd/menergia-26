@@ -285,7 +285,7 @@ a.nav-logo::after {
 }
 
 .college-name-large {
-    font-size: clamp(1.8rem, 4vw, 3rem) !important;
+    font-size: 3rem !important;
     font-family: var(--font-heading) !important;
     color: var(--primary-gold-bright) !important;
     letter-spacing: 2px;
@@ -964,128 +964,51 @@ a.nav-logo::after {
 
 @media (max-width: 768px) {
     .main-nav {
-        padding: 0.6rem 1rem;
-        flex-direction: column;
-        gap: 0.8rem;
-    }
-    .nav-logo-left, .nav-logo-right {
-        position: static;
-        transform: none;
-        justify-content: center;
-        width: 100%;
-    }
-    .nav-logo img {
-        height: 50px;
+        padding: 1rem 0;
     }
     .main-nav ul {
         gap: 1.5rem;
-        padding: 0.5rem 0;
-        width: 100%;
-        justify-content: center;
-        border-top: 1px solid rgba(226, 183, 75, 0.1);
-        border-bottom: 1px solid rgba(226, 183, 75, 0.1);
     }
     .main-nav a {
-        font-size: 0.85rem;
-        letter-spacing: 1.5px;
+        font-size: 0.9rem;
     }
     .content-wrapper {
-        padding-top: 11rem; /* Adjusted for taller mobile nav */
+        padding-top: 6rem;
     }
-    .college-header-row {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
-    }
-    .veltech-logo {
-        height: 70px;
-    }
-    .college-name-large {
-        font-size: 1.8rem !important;
-    }
-    .college-info h2 {
-        font-size: 0.9rem;
-    }
-    .affiliation {
-        font-size: 0.75rem;
+    .hero-header {
         padding: 0 1rem;
     }
-    .main-title {
-        font-size: 3rem;
-        letter-spacing: 5px;
-    }
-    .dept-name {
-        font-size: 0.9rem;
-        padding: 0 1rem;
-    }
-    .countdown-grid {
-        gap: 0.4rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .countdown-box {
-        padding: 0.6rem 0.8rem;
-        min-width: 60px;
-    }
-    .countdown-box span:first-child {
+    .college-info h1 {
         font-size: 1.8rem;
     }
-    .countdown-sep {
-        font-size: 1.5rem;
+    .college-info h2 {
+        font-size: 1rem;
+    }
+    .main-title {
+        font-size: 3.5rem;
     }
     .event-details-bar {
         flex-direction: column;
-        gap: 0.8rem;
-        padding: 0 1rem;
-    }
-    .detail-item {
-        width: 100%;
-        box-sizing: border-box;
+        gap: 2rem;
     }
     .grid-container {
         grid-template-columns: 1fr;
-        padding: 0 1rem;
     }
     .right-align {
-        text-align: center;
+        text-align: left;
     }
-    .right-align h3 {
-        text-align: center !important;
-    }
-    .person {
-        flex-direction: column !important;
+    .contact-footer {
+        flex-direction: column;
+        align-items: stretch;
         text-align: center;
-        gap: 0.5rem;
     }
     .social-links {
-        padding: 0 1rem;
+        flex-direction: column;
     }
-    .social-btn {
-        width: 100%;
-        box-sizing: border-box;
-    }
-}
-
-@media (max-width: 480px) {
-    .main-title {
-        font-size: 2.5rem;
-    }
-    .countdown-wrapper {
-        margin: 1.5rem 0;
-    }
-    .countdown-box {
-        min-width: 50px;
-        padding: 0.5rem;
-    }
-    .countdown-box span:first-child {
-        font-size: 1.5rem;
-    }
-    .cd-unit {
-        font-size: 0.5rem;
-        letter-spacing: 1px;
+    .perks {
+        justify-content: center;
     }
     .register-now-btn {
-        padding: 1rem 1.8rem;
-        font-size: 1rem;
+        justify-content: center;
     }
 }
