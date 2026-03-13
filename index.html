@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENERGIA '26 | Vel Tech Multi Tech - Mechanical Engineering Symposium</title>
+    <meta name="description" content="Join MENERGIA '26, the national level technical symposium hosted by the Department of Mechanical Engineering at Vel Tech Multi Tech. Engage in exciting tech and non-tech events!">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for Epic Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Dynamic Fire Particles Canvas -->
+    <canvas id="fire-canvas"></canvas>
+
+    <!-- Overlay Gradient to Ensure Text Readability -->
+    <div class="background-overlay"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <a href="index.html" class="nav-logo nav-logo-left">
+            <img src="images/logo-menergia.png" alt="Menergia '26 Logo">
+        </a>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+        <div class="nav-logo nav-logo-right">
+            <img src="images/logo-mech-club.png" alt="Mech Innovators Club Logo">
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        
+        <!-- Header Section -->
+        <header class="hero-header">
+            <div class="college-header-row"><img src="images/veltech-logo.png" alt="Vel Tech Logo" class="veltech-logo"><div class="college-info">
+                <h1>Vel Tech Multi Tech</h1>
+                <h2>Dr.Rangarajan Dr.Sakunthala Engineering College</h2>
+                <span class="badge">An Autonomous Institution</span>
+                <p class="affiliation">(Approved by AICTE, New Delhi & Affiliated to Anna University, Chennai)</p>
+            </div></div></header>
+
+        <!-- Main Symposium Title Section -->
+        <section class="symposium-title-section">
+            <h3 class="dept-name">DEPARTMENT OF MECHANICAL ENGINEERING</h3>
+            <div class="title-wrapper">
+                <h1 class="main-title glint">MENERGIA '26</h1>
+            </div>
+            <p style="font-family: var(--font-heading); color: var(--text-secondary); font-size: 1.1rem; letter-spacing: 3px; font-style: italic; margin-top: -1rem; margin-bottom: 1rem;">A National Level Technical Symposium</p>
+            
+            <div class="event-details-bar">
+                <div class="detail-item">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <div class="detail-text">
+                        <span class="date">25 MAR 2026</span>
+                        <span class="day">WEDNESDAY</span>
+                    </div>
+                </div>
+                <div class="detail-item fee-highlight">
+                    <i class="fa-solid fa-ticket"></i>
+                    <div class="detail-text">
+                        <span>REGISTRATION FEE</span>
+                        <span class="fee-amount">RS.118/- PER TEAM</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Countdown Timer -->
+            <div class="countdown-wrapper">
+                <p class="countdown-label">EVENT STARTS IN</p>
+                <div class="countdown-grid">
+                    <div class="countdown-box"><span id="cd-days">00</span><span class="cd-unit">DAYS</span></div>
+                    <div class="countdown-sep">:</div>
+                    <div class="countdown-box"><span id="cd-hours">00</span><span class="cd-unit">HRS</span></div>
+                    <div class="countdown-sep">:</div>
+                    <div class="countdown-box"><span id="cd-mins">00</span><span class="cd-unit">MINS</span></div>
+                    <div class="countdown-sep">:</div>
+                    <div class="countdown-box"><span id="cd-secs">00</span><span class="cd-unit">SECS</span></div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: center; margin-top: 2rem;">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWamaVrByNpUxyBM62vMYNm555-3yULP5MA9vf9zy-Mh_3Ug/viewform" target="_blank" class="register-now-btn" style="text-decoration: none;">
+                    <span>REGISTER NOW</span> <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="events-section">
+            <div class="scroll-container">
+                <div class="scroll-card tech-card">
+                    <div class="scroll-top"></div>
+                    <div class="scroll-content">
+                        <h2 class="card-title">TECH EVENTS</h2>
+                        <ul class="event-list">
+                            <li><span>&#9876;</span> PAPER PRESENTATION</li>
+                            <li><span>&#9876;</span> TECHNICAL QUIZ</li>
+                            <li><span>&#9876;</span> ROBO RUSH</li>
+                        </ul>
+                    </div>
+                    <div class="scroll-bottom"></div>
+                </div>
+
+                <div class="scroll-card nontech-card">
+                    <div class="scroll-top"></div>
+                    <div class="scroll-content">
+                        <h2 class="card-title">NON-TECH EVENTS</h2>
+                        <ul class="event-list">
+                            <li><span>&#9876;</span> SHORT FILM MAKING</li>
+                            <li><span>&#9876;</span> AD ZAP</li>
+                            <li><span>&#9876;</span> WATER ROCKETRY</li>
+                        </ul>
+                    </div>
+                    <div class="scroll-bottom"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personnel Grid -->
+        <section class="personnel-section">
+            <div class="grid-container">
+                
+                <!-- Faculty & Leadership (Moved to first place) -->
+                <div class="personnel-card">
+                    <div class="person-group">
+                        <h3>PRINCIPAL</h3>
+                        <span class="name leader">DR. R. RAMESH</span>
+                    </div>
+                    
+                    <div class="person-group mt-medium">
+                        <h3>HoD</h3>
+                        <span class="name leader">DR. M. SELVAM</span>
+                        <span class="role">HEAD / MECHANICAL</span>
+                    </div>
+
+                    <div class="person-group mt-medium" style="align-items: flex-start;">
+                        <h3 style="text-align: left;">FACULTY CO-ORDINATOR</h3>
+                        <span class="name leader" style="color: #ff6b00; font-size: 1.25rem;">MR. ALAGU SUNDARA PANDIAN A</span>
+                        <span class="role" style="color: #fff; font-size: 1.1rem; letter-spacing: 0;">Assistant Professor</span>
+                        <span class="role" style="color: #fff; font-size: 1.1rem; letter-spacing: 0;">Mechanical Engineering</span>
+                        <span class="phone" style="font-size: 1.3rem; font-weight: bold; color: #fff; margin-top: 5px;">9094595693</span>
+                    </div>
+                </div>
+
+                <!-- Student Coordinators (Moved to second place) -->
+                <div class="personnel-card right-align">
+                    <h3 style="text-align: right; color: var(--primary-gold-bright);">STUDENT CO-ORDINATOR</h3>
+                    <div class="person-list" style="gap: 2rem; margin-top: 2rem;">
+                        <div class="person" style="flex-direction: row; justify-content: space-between; align-items: center;">
+                            <a href="tel:+919344278826" class="phone" style="font-size: 1.1rem; color: var(--primary-gold);"><i class="fa-solid fa-phone"></i> +91-9344278826</a>
+                            <span class="name" style="font-size: 1.2rem;">A.P.S. BALAJI</span>
+                        </div>
+                        <div class="person" style="flex-direction: row; justify-content: space-between; align-items: center;">
+                            <a href="tel:+919500133274" class="phone" style="font-size: 1.1rem; color: var(--primary-gold);"><i class="fa-solid fa-phone"></i> +91-9500133274</a>
+                            <span class="name" style="font-size: 1.2rem;">LOGA ARJUN J</span>
+                        </div>
+                        <div class="person" style="flex-direction: row; justify-content: space-between; align-items: center;">
+                            <a href="tel:+917708974876" class="phone" style="font-size: 1.1rem; color: var(--primary-gold);"><i class="fa-solid fa-phone"></i> +91-7708974876</a>
+                            <span class="name" style="font-size: 1.2rem;">SARAVANAN V</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="contact-footer">
+            <div class="social-links">
+                <a href="https://www.instagram.com/menergia2026/" target="_blank" class="social-btn instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <div class="social-info">
+                        <span class="label">INSTA LINK</span>
+                        <span class="val">MENERGIA_2026</span>
+                    </div>
+                </a>
+                
+                <a href="mailto:MENERGIA2K26@GMAIL.COM" class="social-btn gmail">
+                    <i class="fa-regular fa-envelope"></i>
+                    <div class="social-info">
+                        <span class="label">GMAIL</span>
+                        <span class="val">MENERGIA2K26@GMAIL.COM</span>
+                    </div>
+                </a>
+
+                <a href="https://maps.app.goo.gl/z2gAEvTnVKCxuPcL9" target="_blank" class="social-btn location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="social-info">
+                        <span class="label">LOCATION</span>
+                        <span class="val">VEL TECH MULTI TECH</span>
+                    </div>
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | MENERGIA '26</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="fire-canvas"></canvas>
+    <div class="background-overlay"></div>
+
+    <nav class="main-nav">
+        <a href="index.html" class="nav-logo nav-logo-left">
+            <img src="images/logo-menergia.png" alt="Menergia '26 Logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html" class="active">Events</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+        <div class="nav-logo nav-logo-right">
+            <img src="images/logo-mech-club.png" alt="Mech Innovators Club Logo">
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        <header class="hero-header">
+            <div class="college-info">
+                <h1>Events</h1>
+                <h2>MENERGIA '26 Technical & Non-Technical Events</h2>
+            </div>
+        </header>
+        
+        <!-- Events Content -->
+        <section class="detailed-events-section">
+            <h2 class="category-heading">TECH EVENTS</h2>
+            
+            <div class="events-list-container">
+                <!-- Event 1: Paper Presentation -->
+                <div class="detailed-event-block">
+                    <h3 class="event-headline">PAPER PRESENTATION</h3>
+                    
+                    <!-- Event Image -->
+                    <div class="event-image-container">
+                        <img src="images/paper-presentation.jpg" alt="Paper Presentation Event">
+                    </div>
+                    
+                    <div class="event-details-content">
+                        <!-- Rules & Regulations Placeholder for Paper Presentation -->
+                        <div class="rules-section">
+                            <h4><i class="fa-solid fa-list-check"></i> Rules and Regulations</h4>
+                            <ul>
+                                <li>Participants can present individually or in a team of maximum 3 members.</li>
+                                <li>The paper must be related to recent technologies or academic topics.</li>
+                                <li>Participants must submit the abstract before the deadline.</li>
+                                <li>The presentation time is limited to 8-10 minutes, followed by 2 minutes for questions.</li>
+                                <li>PowerPoint presentation (PPT) is mandatory.</li>
+                                <li>The PPT should contain maximum 10-12 slides.</li>
+                                <li>Participants must bring their presentation in a pen drive and also keep a backup.</li>
+                                <li>Papers should be original and plagiarism-free. Judges' decision will be final.</li>
+                                <li>Participants should report at least 30 minutes before the event starts.</li>
+                                <li>Formal dress code must be followed.</li>
+                                <li>Any misconduct or violation of rules will lead to disqualification.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Coordinators -->
+                        <div class="coordinators-section">
+                            <h4><i class="fa-solid fa-users"></i> Student Co-ordinators</h4>
+                            <div class="coordinator-contacts">
+                                <div class="coord-item">
+                                    <span class="coord-name">KARTHIK</span>
+                                    <a href="tel:+919360343756" class="coord-phone"><i class="fa-solid fa-phone"></i> 9360343756</a>
+                                </div>
+                                <div class="coord-item">
+                                    <span class="coord-name">SHAM P</span>
+                                    <a href="tel:+917871405367" class="coord-phone"><i class="fa-solid fa-phone"></i> 7871405367</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Register Button -->
+                        <div class="event-action">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWamaVrByNpUxyBM62vMYNm555-3yULP5MA9vf9zy-Mh_3Ug/viewform" target="_blank" class="register-subtle-btn" style="text-decoration: none; display: inline-block;">Register for Paper Presentation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 2: Technical Quiz -->
+                <div class="detailed-event-block">
+                    <h3 class="event-headline">TECHNICAL QUIZ</h3>
+                    
+                    <!-- Event Image -->
+                    <div class="event-image-container">
+                        <img src="images/technical-quiz.jpg" alt="Technical Quiz Event">
+                    </div>
+                    
+                    <div class="event-details-content">
+                        <!-- Rules & Regulations -->
+                        <div class="rules-section">
+                            <h4><i class="fa-solid fa-list-check"></i> Rules and Regulations</h4>
+                            <p style="color: var(--text-primary); margin-bottom: 1rem; font-size: 1.1rem;"><strong>Maximum Members per Team:</strong> 3 students</p>
+                            <ul>
+                                <li><strong>Round 1: Preliminary Round (Screening Round)</strong>
+                                    <ul style="margin-top: 0.5rem; margin-bottom: 1rem;">
+                                        <li>Type: Written MCQ Round</li>
+                                        <li>Number of Questions: 30 Questions</li>
+                                        <li>Question Type: Multiple Choice Questions</li>
+                                        <li>Time Duration: 20 Minutes</li>
+                                        <li>Marking Scheme: 1 mark for each correct answer</li>
+                                        <li>Negative Mark: No negative marks</li>
+                                        <li>Top 10 teams with highest scores will qualify for the next round.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Round 2: Visual / Identification Round</strong>
+                                    <ul style="margin-top: 0.5rem; margin-bottom: 1rem;">
+                                        <li>Teams Participating: Top 10 Teams</li>
+                                        <li>Number of Questions: 10 questions per team</li>
+                                        <li>Question Type: Identify machine parts, Identify engineering tools, Identify circuits / diagrams</li>
+                                        <li>Time to Answer: 20 seconds</li>
+                                        <li>Marks: 10 marks per correct answer</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Round 3: Rapid Fire Round / Buzzer Round</strong>
+                                    <ul style="margin-top: 0.5rem; margin-bottom: 1rem;">
+                                        <li>Teams Participating: Top 4 Teams</li>
+                                        <li>No passing allowed</li>
+                                        <li>Mode: Buzzer based</li>
+                                        <li>Time to Answer: 10 seconds</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Coordinators -->
+                        <div class="coordinators-section">
+                            <h4><i class="fa-solid fa-users"></i> Student Co-ordinators</h4>
+                            <div class="coordinator-contacts">
+                                <div class="coord-item">
+                                    <span class="coord-name">KAMESHWARAN</span>
+                                    <a href="tel:+919884538770" class="coord-phone"><i class="fa-solid fa-phone"></i> 9884538770</a>
+                                </div>
+                                <div class="coord-item">
+                                    <span class="coord-name">ROHITH P</span>
+                                    <a href="tel:+917397277729" class="coord-phone"><i class="fa-solid fa-phone"></i> 7397277729</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Register Button -->
+                        <div class="event-action">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWamaVrByNpUxyBM62vMYNm555-3yULP5MA9vf9zy-Mh_3Ug/viewform" target="_blank" class="register-subtle-btn" style="text-decoration: none; display: inline-block;">Register for Technical Quiz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 3: Robo Rush -->
+                <div class="detailed-event-block">
+                    <h3 class="event-headline">ROBO RUSH</h3>
+                    
+                    <!-- Event Image -->
+                    <div class="event-image-container">
+                        <img src="images/robo-race-new.jpg" alt="Robo Rush Event">
+                    </div>
+                    
+                    <div class="event-details-content">
+                        <!-- Rules & Regulations -->
+                        <div class="rules-section">
+                            <h4><i class="fa-solid fa-list-check"></i> Rules and Regulations</h4>
+                            <ul>
+                                <li>Each team can have maximum 3 members.</li>
+                                <li>The robot must be manually controlled (wired or wireless).</li>
+                                <li>The robot should fit within 15 cm &times; 15 cm &times; 15 cm dimensions at the start of the race.</li>
+                                <li>The maximum weight of the robot should be 3 kg.</li>
+                                <li>The robot must run on the given track without damaging the arena.</li>
+                                <li>Participants must bring their own power supply, batteries, and controllers.</li>
+                                <li>If the robot gets stuck, the team can restart from the previous checkpoint with penalty time.</li>
+                                <li>Touching the robot during the race is not allowed unless permitted by the judges.</li>
+                                <li>Any intentional damage to the track or other robots will lead to disqualification.</li>
+                                <li>The team completing the track in the least time wins.</li>
+                                <li>Participants should report to the event venue at least 30 minutes before the event.</li>
+                                <li>Judges' decision will be final and binding.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Coordinators -->
+                        <div class="coordinators-section">
+                            <h4><i class="fa-solid fa-users"></i> Student Co-ordinators</h4>
+                            <div class="coordinator-contacts">
+                                <div class="coord-item">
+                                    <span class="coord-name">NAZEER</span>
+                                    <a href="tel:+918608108599" class="coord-phone"><i class="fa-solid fa-phone"></i> 8608108599</a>
+                                </div>
+                                <div class="coord-item">
+                                    <span class="coord-name">GOKUL NATH</span>
+                                    <a href="tel:+917904118114" class="coord-phone"><i class="fa-solid fa-phone"></i> 7904118114</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Register Button -->
+                        <div class="event-action">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWamaVrByNpUxyBM62vMYNm555-3yULP5MA9vf9zy-Mh_3Ug/viewform" target="_blank" class="register-subtle-btn" style="text-decoration: none; display: inline-block;">Register for Robo Rush</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Tech Events can be added here following the same structure -->
+            </div>
+
+            <h2 class="category-heading mt-large">NON-TECH EVENTS</h2>
+            
+            <div class="events-list-container">
+                <!-- Event 1: Shortfilm Making -->
+                <div class="detailed-event-block">
+                    <h3 class="event-headline">SHORTFILM MAKING</h3>
+                    
+                    <!-- Event Image -->
+                    <div class="event-image-container">
+                        <img src="images/shortfilm.png" alt="Shortfilm Making Event">
+                    </div>
+                    
+                    <div class="event-details-content">
+                        <div class="rules-section">
+                            <h4><i class="fa-solid fa-list-check"></i> Rules and Regulations</h4>
+                            <ul>
+                                <li>The competition is open to all college students.</li>
+                                <li>Each team should have minimum 3 members and maximum 10 members.</li>
+                                <li>The duration of the short film must be between 3 to 6 minutes.</li>
+                                <li>The film can be in any language, but subtitles in English are recommended.</li>
+                                <li>The theme of the short film should be social awareness / creativity / innovation (or as given by the organizers).</li>
+                                <li>Obscene, offensive, or copyrighted content is strictly prohibited.</li>
+                                <li>The short film must be original work created by the participants.</li>
+                                <li>Films should be submitted in MP4 format with good video and audio quality.</li>
+                                <li>Each team can submit only one entry.</li>
+                                <li>The decision of the judges will be final and binding.</li>
+                                <li>The organizing committee has the right to disqualify any film that violates the rules.</li>
+                                <li>Films must be submitted before the specified deadline.</li>
+                            </ul>
+                        </div>
+
+                        <div class="coordinators-section">
+                            <h4><i class="fa-solid fa-users"></i> Student Co-ordinators</h4>
+                            <div class="coordinator-contacts">
+                                <div class="coord-item">
+                                    <span class="coord-name">TAMILARASAN</span>
+                                    <a href="tel:+916369796315" class="coord-phone"><i class="fa-solid fa-phone"></i> 6369796315</a>
+                                </div>
+                                <div class="coord-item">
+                                    <span class="coord-name">DIWAKAR S</span>
+                                    <a href="tel:+917550185706" class="coord-phone"><i class="fa-solid fa-phone"></i> 7550185706</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-action">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWamaVrByNpUxyBM62vMYNm555-3yULP5MA9vf9zy-Mh_3Ug/viewform" target="_blank" class="register-subtle-btn" style="text-decoration: none; display: inline-block;">Register for Shortfilm Making</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 2: Ad Zap -->
+                <div class="detailed-event-block">
+                    <h3 class="event-headline">AD ZAP</h3>
+                    
+                    <!-- Event Image -->
+                    <div class="event-image-container">
+                        <img src="images/adzap-final.jpg" alt="Ad Zap Event">
+                    </div>
+                    
+                    <div class="event-details-content">
+                        <div class="rules-section">
+                            <h4><i class="fa-solid fa-list-check"></i> Rules and Regulations</h4>
+                            <ul>
+                                <li>Each team should consist of minimum 2 and maximum 5 members.</li>
+                                <li>Participants will be given a product or concept on the spot.</li>
+                                <li>Teams will get 10 minutes preparation time before performing.</li>
+                                <li>The performance time should not exceed 5 minutes.</li>
+                                <li>Participants can use simple props if required, but they must bring them on their own.</li>
+                                <li>Use of vulgar, offensive, or inappropriate content is strictly prohibited.</li>
+                                <li>The advertisement should be creative, humorous, and relevant to the given product.</li>
+                                <li>Language can be English or Tamil.</li>
+                                <li>Judges' decision will be final and binding.</li>
+                                <li>Any team exceeding the time limit may lose marks.</li>
+                                <li>Participants should report to the event venue 30 minutes before the start.</li>
+                                <li>Discipline must be maintained throughout the event.</li>
+                            </ul>
+                        </div>
+
+                        <div class="coordinators-section">
+                            <h4><i class="fa-solid fa-users"></i> Student Co-ordinators</h4>
+                            <div class="coordinator-contacts">
+                                <div class="coord-item">
+                                    <span class="coord-name">SANTHOSH P</span>
+                                    <a href="tel:+919843426220" class="coord-phone"><i class="fa-solid fa-phone"></i> 9843426220</a>
+                                </div>
+                                <div class="coord-item">
+                                    <span class="coord-name">PAUL MOSES</span>
+                                    <a href="tel:+919952500809" class="coord-phone"><i class="fa-solid fa-phone"></i> 9952500809</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-action">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWamaVrByNpUxyBM62vMYNm555-3yULP5MA9vf9zy-Mh_3Ug/viewform" target="_blank" class="register-subtle-btn" style="text-decoration: none; display: inline-block;">Register for Ad Zap</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 3: WATER ROCKETRY -->
+                <div class="detailed-event-block">
+                    <h3 class="event-headline">WATER ROCKETERY</h3>
+                    
+                    <!-- Event Image -->
+                    <div class="event-image-container">
+                        <img src="images/water-rocketery-final.jpg" alt="Water Rocketery Event">
+                    </div>
+                    
+                    <div class="event-details-content">
+                        <div class="rules-section">
+                            <h4><i class="fa-solid fa-list-check"></i> Rules and Regulations</h4>
+                            <p style="color: var(--text-primary); margin-bottom: 1rem; font-size: 1.1rem;"><strong>Team Size:</strong> Maximum 3 members per team</p>
+                            <ul>
+                                <li>Rockets must be assembled before attending the event.</li>
+                                <li>Each team must have only one rocket.</li>
+                                <li>Only cardboard can be used for the wings.</li>
+                                <li>A single 1-litre water bottle must be used as the pressure vessel.</li>
+                                <li>The only permissible sources of propulsion are water and air pressure.</li>
+                                <li>The pressure must not exceed 45 psi.</li>
+                                <li>Trial launch is available (optional).</li>
+                                <li>In case of a tie, another launch will be conducted.</li>
+                                <li>Use of metal, glass, hard plastics, spikes, or antennas is strictly prohibited for safety reasons.</li>
+                                <li>If a rocket is deemed harmful, unstable, or dangerous, the team will be disqualified.</li>
+                                <li>Only one attempt will be allowed for the launch.</li>
+                                <li>Only the official launch will be evaluated.</li>
+                            </ul>
+                        </div>
+
+                        <div class="coordinators-section">
+                            <h4><i class="fa-solid fa-users"></i> Student Co-ordinators</h4>
+                            <div class="coordinator-contacts">
+                                <div class="coord-item">
+                                    <span class="coord-name">LOGA ARJUN J</span>
+                                    <a href="tel:+919500133274" class="coord-phone"><i class="fa-solid fa-phone"></i> 9500133274</a>
+                                </div>
+                                <div class="coord-item">
+                                    <span class="coord-name">PRAKASH S</span>
+                                    <a href="tel:+917418673945" class="coord-phone"><i class="fa-solid fa-phone"></i> 7418673945</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="event-action">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWamaVrByNpUxyBM62vMYNm555-3yULP5MA9vf9zy-Mh_3Ug/viewform" target="_blank" class="register-subtle-btn" style="text-decoration: none; display: inline-block;">Register for Water Rocketery</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
